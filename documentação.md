@@ -17,7 +17,7 @@
 | RF10 | O sistema deve gerar notificações em eventos como atribuição de tarefas, mudança de status, novos comentários, entrada de novo membro no projeto, nova tarefa atribuída, novo comentário em tarefa atribuída ao usuário e mudanças de status. |
 | RF11 | O sistema deve registrar e apresentar um histórico contendo alterações de status, mudanças de responsáveis e edições em tarefas. |
 
-## Requisitos Não Funcionais (RNF)
+## 1. Requisitos Não Funcionais (RNF)
 
 | Código | Descrição |
 |--------|-----------|
@@ -25,7 +25,7 @@
 | RNF02 | O sistema deve ser compatível com os navegadores mais populares do mercado. |
 | RNF03 | O sistema deve realizar logout automático após 1 hora de inatividade. |
 
-## 2. Cartões XP
+## 2. Cartões de tarefas (XP)
 
 | Cartão | Descrição | Critérios |
 |--------|-----------|-----------|
@@ -106,7 +106,7 @@ mesmo tempo sem perda de desempenho.
 |------|-----------|--------|------|----------|
 | 1 | Levantamento do sistema | 01/11 | 03/11 | 3 dias |
 | 2 | Definição de requisitos | 03/11 | 05/11 | 2 dias |
-| 3 | Cartões XP | 05/11 | 06/11 | 1 dia |
+| 3 | Cartões de tarefas (XP) | 05/11 | 06/11 | 1 dia |
 | 4 | Spikes | 05/11 | 08/11 | 3 dias |
 | 5 | Mockups | 08/11 | 11/11 | 3 dias |
 | 6 | Repositório GitHub | 10/11 | 11/11 | 2 dias |
