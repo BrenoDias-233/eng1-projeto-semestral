@@ -41,7 +41,7 @@
 | Notificações | Como usuário, quero receber notificações sobre eventos para acompanhar mudanças no projeto. | Eventos: atribuição de tarefas; mudança de status; novos comentários; nova tarefa criada. |
 | Histórico de Alterações | Como usuário, quero ter acesso ao histórico de uma tarefa para entender o que mudou, quando e quem fez. | Deve registrar mudanças de status; mudança de responsável; edições feitas. |
 
-**3. Spikes**
+## **3. Spikes**
 
 ### **Spike 01 -- Estudo sobre notificações em tempo real**
 
