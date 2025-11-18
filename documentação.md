@@ -1,7 +1,7 @@
 
 # DOCUMENTAÇÃO
 
-## Requisitos Funcionais (RF)
+## 1. Requisitos Funcionais (RF)
 
 | Código | Descrição |
 |--------|-----------|
@@ -17,7 +17,7 @@
 | RF10 | O sistema deve gerar notificações em eventos como atribuição de tarefas, mudança de status, novos comentários, entrada de novo membro no projeto, nova tarefa atribuída, novo comentário em tarefa atribuída ao usuário e mudanças de status. |
 | RF11 | O sistema deve registrar e apresentar um histórico contendo alterações de status, mudanças de responsáveis e edições em tarefas. |
 
-## 1. Requisitos Não Funcionais (RNF)
+## Requisitos Não Funcionais (RNF)
 
 | Código | Descrição |
 |--------|-----------|
