@@ -110,3 +110,198 @@ mesmo tempo sem perda de desempenho.
 | 4 | Spikes | 05/11 | 08/11 | 3 dias |
 | 5 | Mockups | 08/11 | 11/11 | 3 dias |
 | 6 | Repositório GitHub | 10/11 | 11/11 | 2 dias |
+
+
+## 6. Linguagens de Programação e Tecnologias Utilizadas
+
+Para o desenvolvimento do sistema, optamos por utilizar tecnologias amplamente adotadas no mercado, que oferecem bom desempenho, facilidade de integração e suporte da comunidade.
+
+No backend, utilizamos o **Node.js**, pois ele permite a construção de aplicações web eficientes e escaláveis. Como o Node.js utiliza JavaScript, a mesma linguagem empregada no frontend, isso facilita a padronização do desenvolvimento e a comunicação entre as partes do sistema, além de tornar o código mais simples de manter.
+
+O frontend foi desenvolvido com **React**, uma biblioteca JavaScript voltada para a criação de interfaces de usuário. Escolhemos o React por possibilitar a criação de componentes reutilizáveis, o que torna a interface mais organizada, dinâmica e de fácil manutenção. Além disso, o React se integra bem com APIs REST, sendo adequado para aplicações web modernas.
+
+Para o armazenamento dos dados, utilizamos o **MySQL**, um sistema gerenciador de banco de dados relacional. Essa escolha se deu por conta da estrutura bem definida do sistema, que envolve entidades como usuários, projetos e tarefas. O MySQL oferece estabilidade, bom desempenho e fácil integração com o Node.js, atendendo às necessidades do projeto.
+
+O versionamento do código foi realizado com o **Git**, permitindo que todos os integrantes da equipe trabalhassem de forma colaborativa. Com o Git, foi possível acompanhar o histórico de alterações, organizar o desenvolvimento em versões e reduzir problemas relacionados a conflitos de código.
+
+Para a prototipação das telas, utilizamos o **Canvas**, que permite a criação de representações visuais das interfaces do sistema. O uso do Canvas possibilitou desenhar e planejar a estrutura das telas antes da implementação, auxiliando na definição do layout, disposição dos elementos e fluxo de navegação do sistema.
+
+Por fim, os testes das APIs foram realizados com o **Postman**, uma ferramenta que permite simular requisições HTTP e validar o funcionamento dos endpoints desenvolvidos. Com o uso do Postman, conseguimos testar autenticação, envio e retorno de dados, garantindo que a integração entre frontend e backend ocorresse corretamente.
+
+---
+
+## 7. Planejamento de Sprints
+
+## Sprint 1: Autenticação e Base do Sistema
+
+### Milestone 1
+
+**Objetivo:** Criar a base do sistema com autenticação de usuários e infraestrutura inicial.
+
+**Itens do Milestone:**
+- Modelagem inicial do banco  
+- Login  
+- Tela de cadastro  
+- Validações tela de cadastro  
+- Tela de login  
+- Integração das telas com backend  
+- Auto Logout após 1h de inatividade  
+
+---
+
+## Sprint 2: Projetos
+
+### Milestone 2
+
+**Objetivo:** Permitir que usuários criem, visualizem e excluam projetos.
+
+**Itens do Milestone:**
+- Tela “Meus Projetos”  
+- Criar / excluir / listar projetos  
+- Integração frontend e backend  
+
+---
+
+## Sprint 3: Tarefas e Atribuições
+
+### Milestone 3
+
+**Objetivo:** Gerenciar tarefas dentro dos projetos, com status e permissões.
+
+**Itens do Milestone:**
+- CRUD de tarefas  
+- Tela de visualização das tarefas  
+- Atribuição de tarefas e permissões  
+- Classificação de status  
+
+---
+
+## Sprint 4: Comentários e Notificações
+
+### Milestone 4
+
+**Objetivo:** Permitir interação entre usuários através de comentários e notificações.
+
+**Itens do Milestone:**
+- Comentários  
+- Interface de comentários  
+- Sistema de notificações  
+- Eventos automáticos  
+
+---
+
+## Sprint 5: Histórico e Polimento Final
+
+### Milestone 5
+
+**Objetivo:** Registrar histórico das tarefas e melhorar a experiência do usuário.
+
+**Itens do Milestone:**
+- Registro de histórico no backend  
+- Tela de histórico por tarefa  
+- Ajustes de UX / UI  
+
+---
+
+# Cronograma de Sprints
+
+## Sprint 1: Autenticação e Base do Sistema
+
+**Duração:** 1ª semana  
+**Milestone:** Autenticação e infraestrutura  
+
+| Dia | Atividades |
+|----|-----------|
+| Dia 1 | Planejamento do Sprint + criação das issues e milestones no GitHub |
+| Dia 1 | Configuração inicial do projeto (repositório, estrutura, dependências) |
+| Dia 2 | Modelagem do banco de dados |
+| Dia 2 | Início da tela de cadastro |
+| Dia 3 | Endpoint de cadastro de usuário |
+| Dia 3 | Validação do formulário de cadastro |
+| Dia 4 | Endpoint de login com JWT |
+| Dia 4 | Tela de login + integração com backend |
+| Dia 5 | Auto Logout após 1h de inatividade |
+| Dia 5 | Testes iniciais e ajustes |
+| Dia 5 (Review) | Review do Sprint + entrega da Milestone |
+
+---
+
+## Sprint 2: Projetos
+
+**Duração:** 2ª semana  
+**Milestone:** Gerenciamento de Projetos  
+
+| Dia | Atividades |
+|----|-----------|
+| Dia 1 | Revisão do backlog + planejamento do Sprint |
+| Dia 1 | Criação dos endpoints de projetos |
+| Dia 2 | Listagem de projetos no backend |
+| Dia 2 | Tela “Meus Projetos” |
+| Dia 3 | Formulário de criação de projeto |
+| Dia 3 | Endpoint de exclusão de projeto |
+| Dia 4 | Confirmação visual para exclusão |
+| Dia 4 | Integração frontend ↔ backend |
+| Dia 5 | Testes de CRUD de projetos |
+| Dia 5 (Review) | Review + ajustes finais |
+
+---
+
+## Sprint 3 — Tarefas e Atribuições
+
+**Duração:** 3ª semana  
+**Milestone:** Tarefas e permissões  
+
+| Dia | Atividades |
+|----|-----------|
+| Dia 1 | Planejamento do Sprint |
+| Dia 1 | CRUD de tarefas (backend) |
+| Dia 2 | Tela de tarefas do projeto |
+| Dia 2 | Formulário de criação/edição de tarefas |
+| Dia 3 | Endpoint de atribuição de tarefas |
+| Dia 3 | Implementação de permissões |
+| Dia 4 | Status das tarefas (A Fazer, Em Progresso, Concluído) |
+| Dia 4 | Integração frontend ↔ backend |
+| Dia 5 | Testes gerais de tarefas |
+| Dia 5 (Review) | Review do Sprint |
+
+---
+
+## Sprint 4 — Comentários e Notificações
+
+**Duração:** 4ª semana  
+**Milestone:** Comunicação e alertas  
+
+| Dia | Atividades |
+|----|-----------|
+| Dia 1 | Planejamento do Sprint |
+| Dia 1 | Endpoint de comentários |
+| Dia 2 | Interface de comentários |
+| Dia 2 | Sistema de notificações (backend) |
+| Dia 3 | Exibição de notificações (frontend) |
+| Dia 3 | Eventos automáticos (atribuição, comentários, status) |
+| Dia 4 | Integração e testes de notificações |
+| Dia 5 | Ajustes finais |
+| Dia 5 (Review) | Review do Sprint |
+
+---
+
+## Sprint 5 — Histórico e Refinamento
+
+**Duração:** 5ª semana  
+**Milestone:** Histórico e UX  
+
+| Dia | Atividades |
+|----|-----------|
+| Dia 1 | Planejamento final |
+| Dia 1 | Registro de histórico no backend |
+| Dia 2 | Tela de histórico por tarefa |
+| Dia 3 | Ajustes de UX/UI |
+| Dia 3 | Testes finais do sistema |
+| Dia 4 | Correções gerais |
+| Dia 4 | Documentação final |
+| Dia 5 | Apresentação / entrega final |
+
+---
+
+## 8. Questionário para entrevistas com stakeholders
+https://docs.google.com/forms/d/e/1FAIpQLSfSO7omAWEUYoFCL6f0mgsgUtmuAD_2x5h6ACbte9V3GCrZUQ/viewform?usp=dialog
